@@ -1,3 +1,7 @@
 public class NewClass {
-    String str = "continue in develop";
+    String str;
+
+    public NewClass(String str) {
+        this.str = str;
+    }
 }
