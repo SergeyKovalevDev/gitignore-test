@@ -12,4 +12,8 @@ public class NewClass {
     public void setStr(String str) {
         this.str = str;
     }
+
+    private boolean equals(String s) {
+        return str.equals(s);
+    }
 }
